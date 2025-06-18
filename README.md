@@ -16,7 +16,7 @@
 
 ## 🗄️ Database Configuration
 - a MySQL instance up and runnning on localhost
-- a database named "bus"
+- a database named "airlinemanagementsystem"
 ### Add customer details
 ![Image](https://github.com/user-attachments/assets/a149d24c-f5f5-456c-aed4-4acec6525223)
 ### Book flight
