@@ -9,13 +9,13 @@ public class Home extends JFrame implements ActionListener{
     public Home() {
         setLayout(null);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airlinemanagementsystem/icons/front.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airlinemanagementsystem/icons/home.jpg"));
         JLabel image = new JLabel(i1);
         image.setBounds(0, 0, 1600, 800);
         add(image);
         
-        JLabel heading = new JLabel("AIR INDIA WELCOMES YOU");
-        heading.setBounds(500, 40, 1000, 40);
+        JLabel heading = new JLabel("Welcome to AirLine");
+        heading.setBounds(640, 40, 1000, 40);
         heading.setForeground(Color.BLUE);
         heading.setFont(new Font("Tahoma", Font.PLAIN, 36));
         image.add(heading);

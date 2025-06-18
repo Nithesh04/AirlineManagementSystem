@@ -16,7 +16,7 @@ public class BoardingPass extends JFrame implements ActionListener{
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         
-        JLabel heading = new JLabel("AIR INDIA");
+        JLabel heading = new JLabel("AirLine");
         heading.setBounds(380, 10, 450, 35);
         heading.setFont(new Font("Tahoma", Font.PLAIN, 32));
         add(heading);
@@ -106,11 +106,11 @@ public class BoardingPass extends JFrame implements ActionListener{
         labeldate.setBounds(220, 300, 150, 25);
         add(labeldate);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airlinemanagementsystem/icons/airindia.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airlinemanagementsystem/icons/airplane.png"));
         Image i2 = i1.getImage().getScaledInstance(300, 230, Image.SCALE_DEFAULT);
         ImageIcon image = new ImageIcon(i2);
         JLabel lblimage = new JLabel(image);
-        lblimage.setBounds(600, 0, 300, 300);
+        lblimage.setBounds(600, 50, 300, 300);
         add(lblimage);
         
         setSize(1000, 450);
